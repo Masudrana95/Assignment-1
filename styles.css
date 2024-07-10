@@ -6,7 +6,7 @@
 }
 /* banner style */
 #banner{
-    background-image:url('/assets/hero-bg.png');
+    background-image:url('assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -87,6 +87,7 @@
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 20px;
+    padding-top:  80px;
 }
 .development-content .description{
     color: rgb(13, 19, 33);
