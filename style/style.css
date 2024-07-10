@@ -13,6 +13,7 @@
     height: 652px;
     margin: 25px auto; 
     position: relative;
+    margin-bottom: 50px;
 }
 .banner-content{
     position: absolute;
@@ -63,4 +64,95 @@
     line-height: 23px;
     text-align: center;
     border: none;
+}
+/* development style  */
+#development{
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 990px;
+    margin: 25px auto; 
+    border-radius: 16px;
+   
+}
+.development-content{
+    margin-bottom:50px ;
+}
+.development-content .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.development-content .description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+/* fream8 style */
+#fream8{
+    background: white;
+    width: 946px;
+    height: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2px;
+    margin-bottom: 40px;
+    
+}
+.fream8-content{
+    position: static;
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 48px;
+}
+.fream8-content .fream8-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fream8-content .fream8-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fream8-content .fream8-btn{
+    padding: 10px 15px 10px 7px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+.fream8-content .group3{
+    width: 240px;
+    height: 240px;
+}
+.fream8-content .group4{
+    width: 240px;
+    height: 240px;
 }
